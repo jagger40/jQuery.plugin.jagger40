@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../assets/stylesheets/content.css" />
+
+
+</head>
+<body>
+	<div class="conLayer">
+		
+		<div class="section">
+			
+			<table cellpadding="0" cellspacing="0" class="table">
+				<thead>
+					<tr>
+						<th>项目一</th>
+						<th>项目二</th>
+						<th>项目三</th>
+					</tr>
+				</thead>
+				<tbody id="paging">
+					<tr style="display: table-row;">
+						<td>1</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>2</td>
+						<td>2</td>
+						<td>2</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>3</td>
+						<td>3</td>
+						<td>3</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>4</td>
+						<td>4</td>
+						<td>4</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>5</td>
+						<td>5</td>
+						<td>5</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>6</td>
+						<td>6</td>
+						<td>6</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>7</td>
+						<td>7</td>
+						<td>7</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>8</td>
+						<td>8</td>
+						<td>8</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>9</td>
+						<td>9</td>
+						<td>9</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>10</td>
+						<td>10</td>
+						<td>10</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>11</td>
+						<td>11</td>
+						<td>11</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>12</td>
+						<td>12</td>
+						<td>12</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>13</td>
+						<td>13</td>
+						<td>13</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>14</td>
+						<td>14</td>
+						<td>14</td>
+					</tr>
+					<tr style="display: table-row;">
+						<td>15</td>
+						<td>15</td>
+						<td>15</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="table-footer" id="table-footer">
+				
+			</div>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="../src/jquery.js"></script>
+	<script type="text/javascript" src="../src/jquery-plugin.paging.js"></script>
+	<script type="text/javascript">
+			var option = {
+					pagesize:5,//每页大小
+					currentpage:2,//当前页
+					target:"#table-footer"//导航条所在位置
+				};
+				
+				$("#paging").qucikPage(option);
+	</script>
+	
+</body>
+</html>

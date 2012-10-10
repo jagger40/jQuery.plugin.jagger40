@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.loaddata {
+	border: 0px solid;
+	border-color: #009900;
+	height: 200px;
+	line-height: 600px;
+    width:100%;
+	text-align: center;
+	background: #000;
+	margin: 0 auto;
+}
+
+.loaddata img{
+	margin-top: 6%;
+}
